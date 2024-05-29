@@ -14,13 +14,6 @@ metadata:
   language: TypeScript
   provider: Red Hat
   version: 2.0.2
-starterProjects:
-  - name: nodejs-angular-starter
-    git:
-      checkoutFrom:
-        revision: main
-      remotes:
-        origin: https://github.com/devfile-samples/devfile-stack-nodejs-angular.git
 components:
   - container:
       endpoints:
