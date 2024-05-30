@@ -1,14 +1,14 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
-  name: angular-app-template
-  title: Angular App Template
-  description: Create a new CRA website project
+  name: liberty-app-template
+  title: Liberty App Template
+  description: Create a new Open Liberty project
   tags:
-    - angular
-    - nagesh
+    - liberty
+    - gmarcy
 spec:
-  owner: narathod@redhat.com
+  owner: gmarcy@us.ibm.com
   type: website
   parameters:
     - title: Provide some simple information
